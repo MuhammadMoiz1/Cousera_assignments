@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    font-family:cursive;
+    background-color: black ;
+    color: aliceblue;
+    
+}
+.navbar-brand{
+    font-size: 175%;
+}
+.icon-bar{
+    background-color: red !important;
+}
+button{
+    border:1px solid red !important;
+}
+button:hover,button:focus{
+    background-color: transparent !important;
+    border:1px solid black !important;
+    .icon-bar{
+        background-color: black !important;
+        
+    }
+}
+
+.navbar-default{
+    border:0 ;
+    margin: 0px !important;}
+header{
+    background-color: antiquewhite!important ;
+    padding: 0 !important;
+    border-top: 2px solid red;
+}
+.pad{
+    padding: 0 !important;
+    border: 2px solid red !important;
+    border-top: 0px !important;
+   
+}
+nav div,nav li,nav ul,nav a{
+    background-color: antiquewhite ;
+    color: red!important;
+}
+
+nav li{
+   text-align: center !important;
+   border-bottom: 1px solid red;
+}
+body{
+    background-color: black;
+}
+
+#heading{
+    font-size :175%; 
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 35px;
+}
+
+.d p{
+    margin-top: 20%;
+    margin-bottom: 0px;
+}
+#d1{
+   border-left: 2px solid red !important;
+}
+
+@media (max-width: 767px){
+    .d {
+        background-color: antiquewhite;
+        height: 500px ;
+        overflow:hidden;
+        margin:30px 70px;
+        padding: 0px;
+        border: 1px solid red ;
+        padding-top: 0px; 
+        position: relative;
+    }
+    #d1{
+        border: 2px solid red !important;
+    }
+    header{
+        border: none;
+    }
+    
+}
+@media (min-width: 768px){
+    .tile{
+            position: relative ;
+            border: 2px solid red;
+            background-color: antiquewhite !important;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0px 10px 15px;
+    }
+    .d{
+        margin:0px;
+        padding:14px;
+        border:none;
+        height: 500px;
+    }
+}
+
+
+p{
+    background-color: antiquewhite;
+    color: red;
+
+}
+
+
+h3{
+    border:1px solid  red; 
+    font-size: 125%;
+    width:40%;
+    height: 12%;
+    text-align: center;
+    margin-bottom: 10px;
+    position: absolute;
+    right:0;
+    top: 0;
+    margin:0px;
+}
+#h21{
+    background-color: rgb(247, 182, 60);
+}
+#h22{
+    background-color: rgba(255, 99, 71, 0.5);
+}
+#h23{
+    background-color: rgba(194, 249, 242, 0.5);
+    color:blueviolet;
+}
+span{
+    background-color: antiquewhite;
+}
