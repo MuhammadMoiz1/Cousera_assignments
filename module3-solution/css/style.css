@@ -68,7 +68,7 @@ body{
 @media (max-width: 767px){
     .d {
         background-color: antiquewhite;
-        height: 500px ;
+        height: auto;
         overflow:hidden;
         margin:30px 70px;
         padding: 0px;
